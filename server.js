@@ -5,64 +5,64 @@ const PORT  = 8000
 app.use(cors())
 const flower = [
     {'id':'1',
-     'url':'https://www.pexels.com/photo/close-up-photo-of-blue-hydrangeas-in-bloom-53135/'
+     'url':'https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'2',
-     'url':'https://www.pexels.com/photo/close-view-of-pink-flowers-with-water-droplets-2251822/'
+     'url':'https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'3',
-     'url':'https://www.pexels.com/photo/pink-red-yellow-petaled-flower-in-close-up-shot-85773/'
+     'url':'https://images.pexels.com/photos/87452/flowers-background-butterflies-beautiful-87452.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'4',
-     'url':'https://www.pexels.com/photo/close-up-photograph-of-flowers-931177/'
+     'url':'https://images.pexels.com/photos/69776/tulips-bed-colorful-color-69776.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'5',
-     'url':'https://www.pexels.com/photo/yellow-sunflower-macro-photographyt-46216/'
+     'url':'https://images.pexels.com/photos/250591/pexels-photo-250591.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'6',
-     'url':'https://www.pexels.com/photo/red-roses-1187079/'
+     'url':'https://images.pexels.com/photos/46216/sunflower-flowers-bright-yellow-46216.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'7',
-     'url':'https://www.pexels.com/photo/red-squirrel-on-brown-table-top-460775/'
+     'url':'https://images.pexels.com/photos/673857/pexels-photo-673857.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'8',
-     'url':'https://www.pexels.com/photo/white-daisy-flower-67857/'
+     'url':'https://images.pexels.com/photos/1128797/pexels-photo-1128797.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'9',
-     'url':'https://www.pexels.com/photo/person-holding-yellow-black-eyed-susan-flowers-in-bloom-1697912/'
+     'url':'https://images.pexels.com/photos/1187079/pexels-photo-1187079.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'10',
-     'url':'https://www.pexels.com/photo/photo-of-red-and-white-petaled-flowers-1369068/'
+     'url':'https://images.pexels.com/photos/757889/pexels-photo-757889.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'11',
-     'url':'https://www.pexels.com/photo/photo-of-daisy-flowers-1477166/'
+     'url':'https://images.pexels.com/photos/1883385/pexels-photo-1883385.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'12',
-     'url':'https://www.pexels.com/photo/red-rose-53141/'
+     'url':'https://images.pexels.com/photos/460775/pexels-photo-460775.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'13',
-     'url':'https://www.pexels.com/photo/close-up-of-pink-flowers-4622976/'
+     'url':'https://images.pexels.com/photos/67857/daisy-flower-spring-marguerite-67857.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'14',
-     'url':'https://www.pexels.com/photo/bed-of-orange-petaled-flower-462402/'
+     'url':'https://images.pexels.com/photos/70330/pexels-photo-70330.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'15',
-     'url':'https://www.pexels.com/photo/close-up-photography-of-multi-petaled-plants-in-clear-glass-vase-74512/'
+     'url':'https://images.pexels.com/photos/2058498/pexels-photo-2058498.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'16',
-     'url':'https://www.pexels.com/photo/red-and-pink-flower-wreath-3671650/'
+     'url':'https://images.pexels.com/photos/122734/pexels-photo-122734.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'17',
-     'url':'https://www.pexels.com/photo/close-up-photography-of-roses-1167050/'
+     'url':'https://images.pexels.com/photos/1369068/pexels-photo-1369068.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'18',
-     'url':'https://www.pexels.com/photo/close-up-photography-of-roses-1167050/'
+     'url':'https://images.pexels.com/photos/1477166/pexels-photo-1477166.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'19',
-     'url':'https://www.pexels.com/photo/selective-focus-photography-of-pink-peony-flowers-617967/'
+     'url':'https://images.pexels.com/photos/53141/rose-red-blossom-bloom-53141.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {'id':'20',
-     'url':'https://www.pexels.com/photo/white-red-orange-and-brown-flowers-931168/'
+     'url':'https://images.pexels.com/photos/54323/rose-composites-flowers-spring-54323.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     
     
