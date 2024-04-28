@@ -13,7 +13,7 @@ Example
 ```
 Request:
 async function fetchApi() {
-  const response = await fetch("https://agile-pear-wrap.cyclic.app/api/flower/random");
+  const response = await fetch("https://flower-api-urlf.onrender.com/api/flower/random");
   const images = await response.json();
 }
 Response:
